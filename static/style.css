@@ -1,0 +1,61 @@
+@font-face {
+    font-family: Raleway;
+    src: url("Raleway-Regular.ttf");
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: Raleway;
+    src: url("Raleway-SemiBold.ttf");
+    font-weight: bold;
+}
+
+html {
+    text-align: center;
+}
+
+header {
+    font-family: Raleway, sans-serif;
+    font-weight: bold;
+    padding-bottom: 1em;
+    margin-bottom: 1em;
+    border-bottom: solid black 1px;
+}
+
+body {
+    font-family: Raleway, sans-serif;
+    font-weight: normal;
+    font-size: 16pt;
+}
+
+footer {
+    font-family: Raleway, sans-serif;
+    font-weight: normal;
+    border-top: solid black 1px;
+    margin-top: 1em;
+    padding-top: 1em;
+}
+
+#footer-logo {
+    height: 6em;
+    float: left;
+}
+
+#footer-text {
+    font-size: 2em;
+    padding: 0.2em;
+}
+
+#quote {
+    text-align: center;
+    font-size: 1.5em;
+}
+
+#logo {
+    float: left;
+    height: 4em;
+}
+
+#title {
+    font-size: 72px;
+}
